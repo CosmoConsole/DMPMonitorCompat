@@ -1,0 +1,31 @@
+#     ....    .   .   ....
+#    .   .   .. ..   .   .
+#   .   .   . . .   ....
+#  .   .   .   .   .
+# ....    .   .   .      
+# DeathMessagesPrime MONITOR Compat Configuration File
+# SAVE THIS FILE AS UTF-8!!!! (without BOM)
+# Your text editor should support it. (Windows Notepad does probably not work)
+
+# Configuration version, do not change this unless you want your config to be 
+# reset.
+config-version: 1
+
+# This plugin adds MONITOR plugin compatibility to DeathMessagesPrime.
+# To see what plugins can achieve DMP compatibility with this, please check
+# the Spigot website of this plugin.
+
+# Note that this will result in plugins getting the PlayerDeathEvent
+# effectively called twice. Modifying any of the fields of the mock event
+# will cause nothing to happen.
+
+# If a plugin expects a PlayerDeathEvent to be only called once, it is
+# not compatible with this addon.
+
+# Only call listeners that themselves use the MONITOR or HIGHEST priority.
+only-monitor-or-highest: true
+
+# List of plugins to call a mock PlayerDeathEvent for.
+# Check the website mentioned above for plugin names.
+plugins:
+# - PluginName 

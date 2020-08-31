@@ -1,0 +1,7 @@
+name: DMPMonitorCompat
+main: email.com.gmail.cosmoconsole.bukkit.dmp.monitor.Main
+version: 1.1
+api-version: 1.13
+description: Adds DeathMessagesPrime compatibility to plugins that use MONITOR priority.
+depend: [DeathMessagesPrime]
+author: CosmoConsole
